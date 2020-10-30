@@ -20,6 +20,7 @@ function submitData(name, email) {
             .then(json => {
                 document.querySelector("body").innerHTML+= Object.entries(json)
             })
+<<<<<<< HEAD
 
             .catch(function(error){
                 document.querySelector("body").innerHTML+=`<p>${error.message}</p>`
@@ -29,3 +30,10 @@ function submitData(name, email) {
 
     submitData("abc","bbscs")  
     
+=======
+            
+            );
+    }
+    
+    submitData("abc","bbscs") 
+>>>>>>> 20d5782408270872f4250c7a9f755f035a00e761
